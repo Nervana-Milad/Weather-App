@@ -216,7 +216,7 @@ function displayCurrentWeather(location, currentDay) {
                       <div class="card-footer d-flex justify-content-between">
                         <span>
                           <img
-                            src="img/icon-umberella.png"
+                            src="./img/icon-umberella.png"
                             class="img-fluid"
                             alt="Umbrella icon
                           />
@@ -224,7 +224,7 @@ function displayCurrentWeather(location, currentDay) {
                         </span>
                         <span>
                           <img
-                            src="img/icon-wind.png"
+                            src="./img/icon-wind.png"
                             class="img-fluid"
                             alt="wind icon
                           />
@@ -232,7 +232,7 @@ function displayCurrentWeather(location, currentDay) {
                         </span>
                         <span>
                           <img
-                            src="img/icon-compass.png"
+                            src="./img/icon-compass.png"
                             class="img-fluid"
                             alt="compass icon
                           />
@@ -276,15 +276,15 @@ function displayNext2Days(forecastDay) {
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                   <span>
-                    <img src="img/icon-umberella.png" class="img-fluid" alt="Umbrella icon" />
+                    <img src="./img/icon-umberella.png" class="img-fluid" alt="Umbrella icon" />
                     20%
                   </span>
                   <span>
-                    <img src="img/icon-wind.png" class="img-fluid" alt="Wind icon" />
+                    <img src="./img/icon-wind.png" class="img-fluid" alt="Wind icon" />
                     18Km/h
                   </span>
                   <span>
-                    <img src="img/icon-compass.png" class="img-fluid" alt="Compass icon" />
+                    <img src="./img/icon-compass.png" class="img-fluid" alt="Compass icon" />
                     East
                   </span>
                 </div>
