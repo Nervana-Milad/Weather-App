@@ -170,7 +170,7 @@ locateMeButton.addEventListener("click", function () {
 
 async function getWeather(c) {
   const req = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${c}&days=${day}`
+    `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${c}&days=${day}`
   );
   console.log(req);
   if (req.ok) {
@@ -182,7 +182,7 @@ async function getWeather(c) {
 
 async function getWeatherByCoordinates(lat, lon) {
   const req = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&days=${day}`
+    `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&days=${day}`
   );
   console.log(req);
   if (req.ok) {
